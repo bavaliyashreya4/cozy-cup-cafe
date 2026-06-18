@@ -9,8 +9,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        mocha: {
+          dark: "#3E2723",
+        },
+        brown: {
+          medium: "#6F4E37",
+        },
+        beige: {
+          warm: "#F5F0E8",
+        },
+        cream: {
+          soft: "#FDF6EC",
+        },
+        gold: {
+          accent: "#C4956A",
+        },
+      },
+      fontFamily: {
+        sans: ["var(--font-dm-sans)"],
+        heading: ["var(--font-cormorant)"],
       },
     },
   },

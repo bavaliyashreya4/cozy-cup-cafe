@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Reservation {
+  id             Int      @id @default(autoincrement())
+  name           String
+  email          String
+  phone          String
+  date           String
+  time           String
+  numberOfGuests Int
+  specialRequests String?
+  createdAt      DateTime @default(now())
+}
+
+model ContactMessage {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String
+  message   String
+  createdAt DateTime @default(now())
+}
