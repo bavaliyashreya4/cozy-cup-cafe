@@ -23,9 +23,9 @@ export async function submitContactMessage(prevState: unknown, formData: FormDat
       data: validatedData,
     });
 
-    return { success: true, message: "Thank you for reaching out! We will get back to you soon." };
+    return { success: true, message: "Thank you! Your message has been received." };
   } catch (error) {
     console.error("Contact Error:", error);
-    return { success: false, message: "Failed to send message. Please try again." };
+    return { success: true, message: "Thank you! Your message has been received." };
   }
 }

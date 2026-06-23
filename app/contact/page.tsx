@@ -128,7 +128,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-3xl font-heading italic mb-6">Follow Us</h2>
               <div className="flex space-x-4">
-                <a href="https://instagram.com/cozycup.cafe" target="_blank" rel="noopener noreferrer" className="bg-mocha-dark w-12 h-12 flex items-center justify-center rounded-full text-gold-accent hover:bg-gold-accent hover:text-white transition-colors shadow-sm font-medium">
+                <a href="#" className="bg-mocha-dark w-12 h-12 flex items-center justify-center rounded-full text-gold-accent hover:bg-gold-accent hover:text-white transition-colors shadow-sm font-medium">
                   IG
                 </a>
                 <a href="#" className="bg-mocha-dark w-12 h-12 flex items-center justify-center rounded-full text-gold-accent hover:bg-gold-accent hover:text-white transition-colors shadow-sm font-medium">

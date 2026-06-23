@@ -13,7 +13,7 @@ export default function Footer() {
             </h2>
             <p className="text-beige-warm italic mb-6">With Your Soul</p>
             <div className="flex space-x-4">
-              <a href="https://instagram.com/cozycup.cafe" target="_blank" rel="noopener noreferrer" className="hover:text-gold-accent transition-colors font-medium">
+              <a href="#" className="hover:text-gold-accent transition-colors font-medium">
                 IG
               </a>
               <a href="#" className="hover:text-gold-accent transition-colors font-medium">
